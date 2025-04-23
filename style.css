@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.quadro {
+    display: flex;
+    width: 325px;
+    height: 431px;
+    position: relative;
+}
+
+.quadro img {
+    width: 100%;
+}
+
+
+
+.artista {
+    position: absolute;
+    color: #ffff;
+    left: 27px;
+    bottom: 50px;
+    margin-top: 8px;
+}
+.artista h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.artista p{
+    font-size: 17px;
+    font-weight: 300;
+}
